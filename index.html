@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battles of Medieval Britain - a solitaire game</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div style="margin: 10px auto;">
+        <button id="map1" alt="Brunanburgh 937" class="button-9 map-button" role="button">1</button>
+        <button id="map2" alt="Fullford gate 1066" class="button-9 map-button" role="button">2</button>
+        <button id="map3" alt="Stamford bridge 1066" class="button-9 map-button" role="button">3</button>
+        <button id="map4" alt="Hastings 1066" class="button-9 map-button" role="button">4</button>
+        <button id="map5" alt="The Standard 1138" class="button-9 map-button" role="button">5</button>
+        <button id="map6" alt="Lewes 1264" class="button-9 map-button" role="button">6</button>
+        <button id="map7" alt="Evesham 1265" class="button-9 map-button" role="button">7</button>
+        <button id="map8" alt="Orenwin bridge 1264" class="button-9 map-button" role="button">8</button>
+        <button id="map9" alt="Stirling bridge 1297" class="button-9 map-button" role="button">9</button>
+        <button id="map10" alt="Falkirk 1298" class="button-9 map-button" role="button">10</button>
+        <button id="map11" alt="Bannockburn 1314" class="button-9 map-button" role="button">11</button>
+        <button id="map12" alt="Shrewbury 1403" class="button-9 map-button" role="button">12</button>
+    </div>
+    <div id="page">
+        <div>
+            <img class="draggable box" src="/img/ai_leader_wallace.png" alt="Wallace">
+            <img class="draggable box" src="/img/ai_leader_llywelin.png" alt="Llywelyn">
+            <img class="draggable box" src="/img/ai_leader_harold.png" alt="Harold">
+            <img class="draggable box" src="/img/ai_unit_arrows.png" alt="Enemy Bowmen">
+            <img class="draggable box" src="/img/ai_unit_axes.png" alt="Enemy Axemen">
+            <img class="draggable box" src="/img/ai_unit_pikes.png" alt="Enemy Spearmen">
+            <img class="draggable box" src="/img/ai_unit_swords.png" alt="Enemy Knights">
+            <img class="draggable box" src="/img/unit_player_arrow.png" alt="Player Bowmen">
+            <img class="draggable box" src="/img/unit_player_axes.png" alt="Player Axemen">
+            <img class="draggable box" src="/img/unit_player_pikes.png" alt="Player Spearmen">
+            <img class="draggable box" src="/img/unit_player_cavalry.png" alt="Player Horsemen">
+            <img class="draggable box" src="/img/unit_player_sword.png" alt="Player Knights">
+            <img class="draggable box" src="/img/cover.png" alt="Shields">
+            <img class="draggable activated" src="/img/activated.png" alt="Unit already activated">
+            <img class="draggable-turn box" src="/img/turn.png" alt="Turn">
+        </div>
+        <div class="map">
+            <img src="/img/map1.png" alt="map1" style="max-width: 100%;">
+        </div>
+    </div>
+    <div>
+        <button id="save" class="button-5" role="button">Save game</button>
+        <button id="load" class="button-9" role="button">Load game</button>
+        <button id="clear-markers" class="button-45" role="button">Clear 'activated' markers</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
