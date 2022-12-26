@@ -133,3 +133,30 @@
   box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
   color: #FFFFFF;
 }
+
+.credits {
+  text-align: center;
+}
+
+.credits a {
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: green;
+  color: white;
+  padding: .2em;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.credits a:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+.credits a:active {
+  background-color: black;
+}
+
+.credits a:visited {
+  background-color: green;
+}
